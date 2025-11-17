@@ -1,4 +1,34 @@
-.idea/
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# --- Virtual environments ---
 venv/
-.DS_Store/
+env/
+.venv/
+
+# --- IDE settings ---
+# VS Code
+.vscode/
+# PyCharm / IntelliJ
+.idea/
+
+# --- Logs ---
+*.log
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Test / coverage reports ---
+.coverage
+htmlcov/
+*.cover
+
+# --- Build / distribution ---
+build/
+dist/
+*.egg-info/
 
